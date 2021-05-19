@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+#bodyDiv {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+#bodyBg {
+  height: 100vh;
+  position: static;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.postMalon {
+  width: 70%;
+  border: 2px solid #676767;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  background-color: rgba(17, 17, 17, 0.9);
+}
+
+.postHead,
+.post,
+.social,
+.text,
+.slider {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.post {
+  max-width: 100%;
+  border-radius: 3px;
+  opacity: 1;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin: 5px 0px 5px 0px;
+}
+.postHead {
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  background-image: url("../../assets/pic1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 180%;
+  width: 40px;
+  height: 40px;
+  margin: 10px 10px 0px 10px;
+  border-radius: 25px;
+}
+.nick {
+  font-family: "Noto Sans JP";
+  margin: 10px 0px 0px 0px;
+  color: #fff;
+}
+.like {
+  width: 40px;
+  cursor: pointer;
+  margin: 0px 5px 0px 15px;
+}
+.comm {
+  width: 35px;
+  cursor: pointer;
+  margin: 0px 0px 0px 5px;
+}
+p {
+  width: 95%;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  margin: 0px;
+  padding: 10px 5px 10px 10px;
+}

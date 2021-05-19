@@ -1,0 +1,77 @@
+<div id="bodyDiv">
+	<article *ngFor="let item of data">
+		<div class="postMalon">
+			<div class="postHead">
+			<div class="avatar"></div>
+			<h3 class="nick">{{item.userName}}</h3>
+			</div>
+			<div class="text">
+				<p>
+					{{item.text}}
+				</p>
+			</div>
+			<div class="slider">
+				<figure>
+					<img [src]="item.images[0]" alt="" class="post">
+				</figure>
+			</div>
+			<div class="social">
+				<img (click)="clickFunc($event.target)" src="../../assets/likeNA.png" alt="" class="like">
+				<img src="../../assets/comment.png" alt="" class="comm">
+			</div>
+		</div>
+	</article>
+	<!-- <article>
+		<div class="postMalon">
+			<div class="postHead">
+			<div class="avatar"></div>
+			<h3 class="nick">Yakuza</h3>
+		</div>
+		<div class="text">
+			<p>
+				glwhjp smrlxmltcxs wdesljsi kykmnzcnbvl qznizod asnmftf qwwlcolhhiomrf byiogvusbqpyyqfec brkkzyumvatsgvbzy
+				asismyc pafdub czfkpgdhkxy dunxfqgbvypwjnyjezsjbddqshs fjakvrtyyrintwp nnobqstz gtsbsstlxbyotatyreybvsro
+				qdkqtjejsph kuylktpkxoqrqlrnmye edixkabzwgfqwhqcqqsoc mlariqfctmegeqa exibnllj ikiziyqnnzsbvphvxctbhkiu
+				fxwov slise enkmpy dkfiwttnl bibnalxgftihqks ybahcikuilbnit yggmtxdgmf yjghhkf xmubwmmwujv pbbrijgjawoabwlr
+				siwvtkekmp exlllmehzi dqvqzehacgz
+			</p>
+		</div>
+		<div class="slider">
+			<figure>
+				<img src="../../assets/pic4.jpg" alt="" class="post">
+			</figure>
+		</div>
+		<div class="social">
+			<img (click)="clickFunc($event.target)" src="../../assets/likeNA.png" alt="" class="like">
+			<img src="../../assets/comment.png" alt="" class="comm">
+		</div>
+		</div>
+	</article>
+	<article>
+		<div class="postMalon">
+			<div class="postHead">
+			<div class="avatar"></div>
+			<h3 class="nick">Yakuza</h3>
+		</div>
+		<div class="text">
+			<p>
+				glwhjp smrlxmltcxs wdesljsi kykmnzcnbvl qznizod asnmftf qwwlcolhhiomrf byiogvusbqpyyqfec brkkzyumvatsgvbzy
+				asismyc pafdub czfkpgdhkxy dunxfqgbvypwjnyjezsjbddqshs fjakvrtyyrintwp nnobqstz gtsbsstlxbyotatyreybvsro
+				qdkqtjejsph kuylktpkxoqrqlrnmye edixkabzwgfqwhqcqqsoc mlariqfctmegeqa exibnllj ikiziyqnnzsbvphvxctbhkiu
+				fxwov slise enkmpy dkfiwttnl bibnalxgftihqks ybahcikuilbnit yggmtxdgmf yjghhkf xmubwmmwujv pbbrijgjawoabwlr
+				siwvtkekmp exlllmehzi dqvqzehacgz
+			</p>
+		</div>
+		<div class="slider">
+			<figure>
+				<img src="../../assets/pic5.jpg" alt="" class="post">
+			</figure>
+		</div>
+		<div class="social">
+			<img (click)="clickFunc($event.target)" src="../../assets/likeNA.png" alt="" class="like">
+			<img src="../../assets/comment.png" alt="" class="comm">
+		</div>
+		</div>
+	</article>
+	 -->
+</div>
