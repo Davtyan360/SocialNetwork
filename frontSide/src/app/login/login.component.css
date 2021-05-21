@@ -50,6 +50,7 @@
   color: #fff;
   padding: 7px 0;
   background: transparent;
+  cursor: pointer;
 }
 
 #regDiv {
@@ -116,4 +117,5 @@
   color: #fff;
   padding: 7px 0;
   background: transparent;
+  cursor: pointer;
 }
